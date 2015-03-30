@@ -8,9 +8,10 @@ http://blog.innobase.co.jp/
 scripts
 -----------------
 
-| scriot name       | description                          |
-|:------------------|:-------------------------------------|
-| ftp_deploy.coffee | git管理されているWEBSITEをFTPアップロード  |
+| scriot name       | description                              |
+|:------------------|:-----------------------------------------|
+| ftp_deploy.coffee | git管理されているWEBSITEをFTP上にアップロード  |
+| s3_deploy.coffee  | git管理されているWEBSITEをS3上にアップロード   |
 
 License
 -----------------
