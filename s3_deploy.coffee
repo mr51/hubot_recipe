@@ -19,7 +19,7 @@ module.exports = (robot) ->
 
         msg.send "deploy website 実行します。\n===================================\n"
         command += ";echo \"==================================\n\""
-        command += ":echo \"deploy website を実行しました。\";"
+        command += ";echo \"deploy website を実行しました。\";"
         child_process.exec command, (error, stdout, stderr) ->
             msg.send stderr
             msg.send stdout
